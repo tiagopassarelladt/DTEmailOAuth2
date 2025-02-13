@@ -692,7 +692,7 @@ begin
       CharsetCode    := fDefaultCharsetCode;
       TargetCharset  := fIDECharsetCode;
       ConvertCharset := (fDefaultCharsetCode <> fIDECharsetCode);
-      EncodingCode   := ME_QUOTED_PRINTABLE;// ME_BASE64;
+      EncodingCode   := ME_BASE64;
       EncodePart;
       EncodePartHeader;
     end;
@@ -720,7 +720,7 @@ begin
       CharsetCode    := fDefaultCharsetCode;
       TargetCharset  := fIDECharsetCode;
       ConvertCharset := (fDefaultCharsetCode <> fIDECharsetCode);
-      EncodingCode   := ME_QUOTED_PRINTABLE; // ME_BASE64;
+      EncodingCode   := ME_BASE64;
       EncodePart;
       EncodePartHeader;
     end;
@@ -1333,3 +1333,4 @@ begin
 end;
 
 end.
+

@@ -136,11 +136,11 @@ begin
   begin
     // Depende de: "<img src='cid:LogoDT'>" em DTEmailOAuth21.Body;
     if Pos('cid:LogoDT', DTEmailOAuth21.Body.Text) > 0 then
-      DTEmailOAuth21.AddAttachment(Dir + 'LogoDT.png', 'LogoDT', adInline);
+      DTEmailOAuth21.AddAttachment(Dir + 'LogoDT.jpeg', 'LogoDT', adInline);
   end;
 
   if cbAddImgAtt.Checked then
-    DTEmailOAuth21.AddAttachment(Dir + 'LogoDT.jpg', '', adAttachment);
+    DTEmailOAuth21.AddAttachment(Dir + 'LogoDT.jpeg', '', adAttachment);
 
   if cbAddPDF.Checked then
     DTEmailOAuth21.AddAttachment(Dir + '35150905481336000137550010000111291000111298-nfe.pdf', 'DANFE', adAttachment);
