@@ -3,6 +3,8 @@
 ![](Componente/Assets/Images/SMTPServiceLogos.png)  
 Com este componente, além dos envios de email por SMTP, e IMAP também é possível autenticar com OAUTH2 e enviar uma mensagem de e-mail para endereços de e-mail do [gmail](https://www.gmail.com), [microsoft/office365](https://outlook.office.com/mail/) e também [hotmail.com/outlook.com/live.com](https://www.outlook.com). 
 
+O Componente DTEmailOAUTH2 é baseado no ACBRMail e no GmailAuthSMTP que pode ser encontrado no link: https://github.com/geoffsmith82/GmailAuthSMTP
+
 OAuth2 é um padrão aberto de autorização usado para conceder acesso a recursos protegidos por um servidor. Ele permite que um aplicativo ou serviço se autentique com um servidor de recursos e acesse recursos protegidos em nome de um usuário, sem exigir que o usuário forneça suas credenciais diretamente ao aplicativo.
 
 Quando um usuário deseja acessar seu e-mail usando um cliente de e-mail ou outro aplicativo, o aplicativo pode usar OAuth2 para autenticar-se com o serviço de e-mail e solicitar acesso ao e-mail do usuário. O usuário será solicitado a fazer login em sua conta de e-mail e conceder acesso ao aplicativo. Uma vez que o acesso seja concedido, o aplicativo pode usar o token de acesso OAuth2 para autenticar-se com o serviço de e-mail e acessar o e-mail do usuário.
